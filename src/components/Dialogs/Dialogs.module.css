@@ -1,0 +1,32 @@
+.dialogs{
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+    padding: 20px;
+}
+
+.dialogsItems {
+
+}
+
+.dialog {
+    margin: 10px 0;
+}
+
+.dialog .link {
+    text-decoration: none;
+    color: #000;
+}
+
+.dialog .linkActive {
+    color: #ffa836;
+    text-decoration: none;
+}
+
+.dialog .link:hover,
+.dialog .linkActive:hover {
+    color: #985200;
+}
+
+.messagesItems {
+
+}
