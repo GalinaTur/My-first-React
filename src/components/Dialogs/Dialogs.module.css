@@ -1,32 +1,27 @@
-.dialogs{
+.dialogs {
     display: grid;
+    grid-template-areas: "d m"
+                        "d t";
     grid-template-columns: 2fr 10fr;
     padding: 20px;
 }
 
 .dialogsItems {
-
-}
-
-.dialog {
-    margin: 10px 0;
-}
-
-.dialog .link {
-    text-decoration: none;
-    color: #000;
-}
-
-.dialog .linkActive {
-    color: #ffa836;
-    text-decoration: none;
-}
-
-.dialog .link:hover,
-.dialog .linkActive:hover {
-    color: #985200;
+    grid-area: d;
 }
 
 .messagesItems {
+    display: flex;
+    flex-direction: column;
+    grid-area: m;
+    align-items: stretch;
+    margin-left: 15px;
+}
 
+.textarea {
+    padding: 10px;
+    resize: none;
+    border-radius: 10px;
+    background-color: rgba(56, 58, 69, 0.1);
+    grid-area: t;
 }

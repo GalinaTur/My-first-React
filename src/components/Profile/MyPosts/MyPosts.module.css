@@ -5,3 +5,10 @@
 .posts {
     margin-top: 10px;
 }
+
+.textarea {
+    padding: 5px 10px;
+    resize: none;
+    border-radius: 10px;
+    background-color: rgba(56, 58, 69, 0.1);
+}
