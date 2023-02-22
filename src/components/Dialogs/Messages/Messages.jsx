@@ -4,7 +4,7 @@ const setActive = ({isActive}) => isActive ? s.linkActive : s.link;
 
 const Messages = (props) => {
 
-    let sender = props.sender == 'currentUser' ? s.currentUser : s.anotherUser;
+    let sender = props.sender === 'currentUser' ? s.currentUser : s.anotherUser;
 
     return (
         <div>
